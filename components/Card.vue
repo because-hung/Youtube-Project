@@ -87,7 +87,7 @@ $fontSmall: 12px;
   .timecode {
   position: absolute;
   bottom: 5px;
-  right: 20px;
+  right: 17px;
   background: black;
   padding: 3px;
   padding-top: 0px;
