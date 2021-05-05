@@ -18,8 +18,8 @@
     </div>
     <div class="youtube-content">
       <Card
-        v-for="item in products"
-        :key="item.time"
+        v-for="(item, i) in products"
+        :key="i"
         :time="item.time"
         :video-img="item.videoImg"
         :ytber-img="item.ytberImg"
