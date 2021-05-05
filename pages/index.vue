@@ -5,7 +5,9 @@
     <div class="categories">
       <ul class="tags">
         <li class="active">
-          全部
+          <a href="" aria-disabled="true">
+            全部
+          </a>
         </li>
         <li v-for="(item, i) in categories" :key="i">
           <a href="#">
@@ -15,193 +17,22 @@
       </ul>
     </div>
     <div class="youtube-content">
-      <!--img 1~4 -->
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img1.jpg" alt="">
-          <span class="timecode">2:34</span>
-        </div>
-
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg1.jpg" alt="">
-          <div class="content">
-            <h3>初心者必練廚佛系刀法Knife Skills in FRE-Style｜Fred吃上癮</h3>
-            <span>Fred吃上癮，觀看次數：254,421次，2018年7月11日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img2.jpg" alt="">
-          <span class="timecode">15:44</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg1.jpg" alt="">
-          <div class="content">
-            <h3>廚佛Fred自稱是料理界的天才?</h3>
-            <span>Fred吃上癮，觀看次數：358,411次，2019年3月21日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img3.jpg" alt="">
-          <span class="timecode">20:11</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg1.jpg" alt="">
-          <div class="content">
-            <h3>Fred小當家，到你家主菜去 ft.網紅娜娜</h3>
-            <span>Fred吃上癮，觀看次數：306,578次，2021年3月31日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img4.jpg" alt="">
-          <span class="timecode">5:34</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg1.jpg" alt="">
-          <div class="content">
-            <h3>廚佛快問快答，驚爆小時候做的怪事！</h3>
-            <span>Fred吃上癮，觀看次數：58,471次，2020年4月7日</span>
-          </div>
-        </div>
-      </div>
-
-      <!--img 5~8-->
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img5.jpg" alt="">
-          <span class="timecode">2:34</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg2.jpg" alt="">
-          <div class="content">
-            <h3>How哥與知名歌星鄧福如結為夫妻，網友直呼：叛徒！！！</h3>
-            <span>HowFun，觀看次數：1314,578次，2020年5月20日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img6.jpg" alt="">
-          <span class="timecode">12:05</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg2.jpg" alt="">
-          <div class="content">
-            <h3>How哥前往母校竹中考學測英文，出來的成績居然是？</h3>
-            <span>HowFun，觀看次數：306,578次，2019年2月7日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img7.jpg" alt="">
-          <span class="timecode">5:42</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg2.jpg" alt="">
-          <div class="content">
-            <h3>業配之王網紅HowHow，月收入大公開！</h3>
-            <span>HowFun，觀看次數：1306,677次，2020年7月31日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img8.jpg" alt="">
-          <span class="timecode">14:43</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg2.jpg" alt="">
-          <div class="content">
-            <h3>How哥與阿明的雙聲道</h3>
-            <span>HowFun，觀看次數：214,578次，2021年2月28日</span>
-          </div>
-        </div>
-      </div>
-
-      <!--img 9~12-->
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img9.jpg" alt="">
-          <span class="timecode">12:00</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg3.png" alt="">
-          <div class="content">
-            <h3>海賊王第1011話大媽的陰謀？</h3>
-            <span>海賊王解說員，觀看次數：4,578次，2021年4月28日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img10.jpg" alt="">
-          <span class="timecode">7:33</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg3.png" alt="">
-          <div class="content">
-            <h3>你們發現了嗎？小菊不為人知的祕密</h3>
-            <span>海賊王解說員，觀看次數：324,578次，2020年2月13日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img11.jpg" alt="">
-          <span class="timecode">15:22</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg3.png" alt="">
-          <div class="content">
-            <h3>第1007話御田所埋下的伏筆</h3>
-            <span>海賊王解說員，觀看次數：174,578次，2021年11月8日</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="youtube-img">
-        <div class="video">
-          <img src="../assets/img/img12.jpg" alt="">
-          <span class="timecode">15:33</span>
-        </div>
-        <div class="video-information">
-          <img class="yt-logo" src="../assets/img/smallimg3.png" alt="">
-          <div class="content">
-            <h3>什麼?四皇的絕技遭到魯夫四檔擊破</h3>
-            <span>海賊王解說員，觀看次數：54,578次，2019年9月10日</span>
-          </div>
-        </div>
-      </div>
-      <!---->
+      <Card
+        v-for="item in products"
+        :key="item.timecode"
+        :time="item.timecode"
+        :video-img="item.videoImg"
+        :ytber-img="item.ytberImg"
+        :title="item.title"
+        :info="item.info"
+      />
     </div>
     <Footer />
   </div>
 </template>
 
 <script>
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 export default {
-  components: {
-    Header,
-    Footer
-  },
   data () {
     return {
       products: [
@@ -286,7 +117,7 @@ export default {
           time: '15:33',
           videoImg: require('../assets/img/img12.jpg'),
           ytberImg: require('../assets/img/smallimg3.png'),
-          title: '什麼?四皇的絕技遭到魯夫四檔擊破',
+          title: '什麼？四皇的絕技遭到魯夫四檔擊破',
           info: '海賊王解說員，觀看次數：54,578次，2019年9月10日'
         }
       ],
@@ -305,7 +136,7 @@ export default {
         '演唱會',
         '程式',
         '網紅',
-        'UberEat'
+        '健身'
       ]
     }
   }
@@ -313,6 +144,7 @@ export default {
 </script>
 
 <style lang="scss">
+//引出 rwd 螢幕解析度
 @import '@/assets/_rwd.scss';
 $fontBig: 20px;
 $fontMid: 16px;
@@ -324,14 +156,19 @@ $fontSmall: 12px;
   z-index: 5;
 }
 .categories {
+  //類別 跑出X軸 可向右滑
   @include ipad() {
     overflow-x: auto;
+    margin-right: 10px;
   }
 }
 .tags {
-  margin-top: 10px;
+  margin-top: 15px;
   display: flex;
   padding-left:20px;
+   @include ipad() {
+    margin-bottom: 15px;
+     }
   li {
     list-style-type: none;
     text-align: center;
@@ -347,11 +184,24 @@ $fontSmall: 12px;
     a {
       color: black;
       text-decoration: none;
+      display: block;
     }
+    @include ipad() {
+       padding: 5px;
+       a {
+       padding: 5px;
+       }
+     }
   }
+  //'全部'按鈕 顯示已使用狀態
   .active {
     background: gray;
     opacity: 1.2;
+    // 取消 preventdefault 讓它不可點擊
+    a {
+      pointer-events: none;
+      cursor: default;
+    }
   }
   li:hover {
     background: gray;
@@ -363,77 +213,5 @@ $fontSmall: 12px;
   flex-wrap: wrap;
   justify-content: center;
 }
-.youtube-img {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1%;
-  width: 24%;
-  img {
-    width: 95%;
-    height: 230px;
-  }
-  .yt-logo {
-    width: 80px;
-    border-radius: 50%;
-    height: 80px;
-  }
 
-  @include ipad() {
-    width: 48%;
-    margin-bottom: 10px;
-  }
-  @include iphone() {
-    width: 98%;
-    margin-bottom: 10px;
-    .yt-logo {
-      width: 60px;
-      height: 60px;
-    }
-  }
-}
-
-.video-information {
-  display: flex;
-  margin-left: 6%;
-  margin-top: 3%;
-  .content {
-    margin-left: 3%;
-    h3 {
-      margin-bottom: 5px;
-    }
-    span {
-      font-size: $fontSmall * 1.2;
-      color: gray;
-    }
-    @include iphone() {
-      h3 {
-        font-size: $fontMid;
-      }
-      span {
-        font-size: $fontSmall;
-      }
-    }
-  }
-}
-.video {
-  width: 100%;
-  position: relative;
-  display: flex;
-  img {
-    margin: auto;
-  }
-}
-.timecode {
-  position: absolute;
-  bottom: 5px;
-  right: 20px;
-  background: black;
-  padding: 3px;
-  padding-top: 0px;
-  color: white;
-}
-
-.content {
-  display: inline-block;
-}
 </style>

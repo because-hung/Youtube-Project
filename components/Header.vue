@@ -20,7 +20,7 @@ $fontSmall: 12px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border-bottom: black 2px solid;
+  border-bottom: grey 1px solid;
   img {
     width: 200px;
     height: 70px;
