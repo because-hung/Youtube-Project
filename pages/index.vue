@@ -19,8 +19,8 @@
     <div class="youtube-content">
       <Card
         v-for="item in products"
-        :key="item.timecode"
-        :time="item.timecode"
+        :key="item.time"
+        :time="item.time"
         :video-img="item.videoImg"
         :ytber-img="item.ytberImg"
         :title="item.title"
@@ -157,7 +157,7 @@ $fontSmall: 12px;
 }
 .categories {
   //類別 跑出X軸 可向右滑
-  @include ipad() {
+  @include padpro() {
     overflow-x: auto;
     margin-right: 10px;
   }

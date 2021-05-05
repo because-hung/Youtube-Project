@@ -60,7 +60,9 @@ $fontSmall: 12px;
     border-radius: 50%;
     height: 80px;
   }
-
+  @include padpro() {
+    width: 32%;
+  }
   @include ipad() {
     width: 48%;
     margin-bottom: 10px;
