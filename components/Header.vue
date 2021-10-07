@@ -1,10 +1,12 @@
 <template>
   <div>
     <div class="header">
-      <img src="../assets/img/youtube-logo.png" alt="">
+      <a href="">
+        <img src="../assets/img/youtube-logo.png" alt="">
+      </a>
       <div class="topmenu">
-        <fa :icon="['fas', 'search']" class="icon" />
-        <fa :icon="['fas', 'user']" class="icon" />
+        <a href=""><fa :icon="['fas', 'search']" class="icon" /></a>
+        <a href=""><fa :icon="['fas', 'user']" class="icon" /></a>
       </div>
     </div>
   </div>
@@ -29,6 +31,9 @@ $fontSmall: 12px;
     margin-right: 60px;
     width: 50px;
     height: 70px;
+  }
+  a {
+    color: black;
   }
   @include ipad() {
     .icon {

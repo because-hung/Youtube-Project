@@ -3,20 +3,28 @@
     <div class="footer">
       <ul>
         <li>
-          <fa :icon="['fas', 'search']" class="footer-icon" />
-          <span>首頁</span>
+          <a href="">
+            <fa :icon="['fas', 'home']" class="footer-icon" />
+            <span>首頁</span>
+          </a>
         </li>
         <li>
-          <fa :icon="['fas', 'heart']" class="footer-icon" />
-          <span>我的最愛</span>
+          <a href="">
+            <fa :icon="['fas', 'heart']" class="footer-icon" />
+            <span>最愛</span>
+          </a>
         </li>
         <li>
-          <fa :icon="['fas', 'bell']" class="footer-icon" />
-          <span>通知</span>
+          <a href="">
+            <fa :icon="['fas', 'bell']" class="footer-icon" />
+            <span>通知</span>
+          </a>
         </li>
         <li>
-          <fa :icon="['fas', 'play-circle']" class="footer-icon" />
-          <span>訂閱內容</span>
+          <a href="">
+            <fa :icon="['fas', 'play-circle']" class="footer-icon" />
+            <span>訂閱</span>
+          </a>
         </li>
       </ul>
     </div>
@@ -38,7 +46,12 @@ $fontSmall: 12px;
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
+    a {
+      color: black;
+      text-decoration: none;
+    }
     li {
+      padding: 5px;
       list-style-type: none;
       display: flex;
       flex-direction: column;
