@@ -49,7 +49,7 @@ $fontSmall: 12px;
 .youtube-card {
   display: flex;
   flex-direction: column;
-  margin-top: 1%;
+  margin-top: 2%;
   width: 24%;
   img {
     width: 95%;
