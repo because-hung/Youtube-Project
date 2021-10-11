@@ -37,25 +37,25 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-fontawesome',
+    'nuxt-fontawesome'
   ],
   fontawesome: {
     // icon 的標籤使用 <fa>，這邊不設定就會依照 plugin 裡的設定<font-awesome-icon>
-    component: 'fa', 
+    component: 'fa',
     imports: [
       // 引入 fas 所有的icon
       {
         set: '@fortawesome/free-solid-svg-icons',
         icons: ['fas']
-      },
+      }
       // 只引入兩種特定的icon
       // 此為pro付費版的package，請注意
     ]
-},
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    babel:{
+    babel: {
       plugins: [
         ['@babel/plugin-proposal-private-methods', { loose: true }]
       ]
