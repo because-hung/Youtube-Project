@@ -2,7 +2,11 @@
 
 *** 作品介紹 / 使用技術 ***
 
-skill: Nuxt / Css / RWD / 部屬 Heroku
+skill:
++ Nuxt 
++ Css 
++ RWD 
++ 部屬 R
 
 仿 youtube 的介面樣式去練習切版
 
