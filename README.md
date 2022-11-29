@@ -2,7 +2,7 @@
 
 *** 作品介紹 / 使用技術 ***
 
-skill:
+> skill:
 + Nuxt 
 + Css 
 + RWD 
