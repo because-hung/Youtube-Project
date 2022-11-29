@@ -12,4 +12,7 @@
 + 部屬 render.com
 
 
-<img src="./202210 res/resume img/github/YT." width="100%" />
+![YT](https://user-images.githubusercontent.com/63777618/204409418-d68a14a0-7d05-4ed8-9069-d13365b5717e.png)
+
+
+
