@@ -12,4 +12,4 @@
 + 部屬 render.com
 
 
-![youtube-project](/D:\202210 res\resume img\github.jpg)
+<img src="./202210 res/resume img/github/YT." width="100%" />
