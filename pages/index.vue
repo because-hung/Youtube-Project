@@ -139,28 +139,29 @@ export default {
         '健身'
       ]
     }
-  },
-  created () {
-    const APIKEY = 'AIzaSyDBJVX1O3HnL1dtJQKfDE1te1yR04MfzHE' // you must replace API_KEY
-
-    const body = {
-      part: 'id,snippet', // 必填，把需要的資訊列出來
-      q: '韓', // 查詢文字
-      maxResults: 50, // 預設為五筆資料，可以設定1~50
-      key: APIKEY // 使用 API 只能取得公開的播放清單
-    }
-
-    function runSample () {
-      // const res = await axios.get('https://www.googleapis.com/youtube/v3/search',
-      fetch(`https://www.googleapis.com/youtube/v3/search?part=id,snippet&q=${body.q}&maxResults=10&key=${APIKEY}`, {
-        method: 'GET',
-        // 別忘了把主體参數轉成字串，否則資料會變成[object Object]，它無法被成功儲存在後台
-        params: { body }
-      }).then(res => res.json())
-        .then(json => console.log(json))
-    }
-    runSample()
   }
+  // 串接 yt Api
+  // created () {
+  //   const APIKEY = 'AIzaSyDBJVX1O3HnL1dtJQKfDE1te1yR04MfzHE' // you must replace API_KEY
+
+  //   const body = {
+  //     part: 'id,snippet', // 必填，把需要的資訊列出來
+  //     q: '韓', // 查詢文字
+  //     maxResults: 50, // 預設為五筆資料，可以設定1~50
+  //     key: APIKEY // 使用 API 只能取得公開的播放清單
+  //   }
+
+  //   function runSample () {
+  //     // const res = await axios.get('https://www.googleapis.com/youtube/v3/search',
+  //     fetch(`https://www.googleapis.com/youtube/v3/search?part=id,snippet&q=${body.q}&maxResults=10&key=${APIKEY}`, {
+  //       method: 'GET',
+  //       // 別忘了把主體参數轉成字串，否則資料會變成[object Object]，它無法被成功儲存在後台
+  //       params: { body }
+  //     }).then(res => res.json())
+  //       .then(json => console.log(json))
+  //   }
+  //   runSample()
+  // }
 }
 </script>
 
