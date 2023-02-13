@@ -2,6 +2,11 @@
   "name": "yt-project",
   "version": "1.0.0",
   "private": true,
+  "eslintConfig": {
+    "rules": {
+      "no-console": "off"
+    }
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

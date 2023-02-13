@@ -97,7 +97,7 @@ $fontSmall: 12px;
 
 .video-info {
   display: flex;
-  margin-left: 6%;
+  margin-left: 3%;
   margin-top: 3%;
   .video-content {
     margin-left: 3%;
