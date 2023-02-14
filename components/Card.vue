@@ -102,6 +102,7 @@ $fontSmall: 12px;
   margin-top: 3%;
   .video-content {
     margin-left: 3%;
+    margin-right: 3%;
     h3 {
       margin-bottom: 5px;
     }
