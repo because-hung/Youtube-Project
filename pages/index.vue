@@ -40,7 +40,7 @@ export default {
           time: '2:34',
           videoImg: require('../assets/img/img1.jpg'),
           ytberImg: require('../assets/img/smallimg1.jpg'),
-          title: '初心者必練廚佛系刀法Knife Skills in FRE-Style｜Fred吃上癮',
+          title: '初心者必練廚佛系刀法｜Fred吃上癮',
           info: 'Fred吃上癮，觀看次數：254,421次，2018年7月11日'
         },
         {
